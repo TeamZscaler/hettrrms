@@ -1,0 +1,219 @@
+:root {
+  --PrimaryColor: hsl(243, 100%, 49%);
+  --HoverColor: rgb(0, 123, 255);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+}
+
+.footer {
+  background: var(--greyBg);
+  padding: 1rem 0 40px;
+}
+.footer .secContainer {
+  gap: 3rem;
+  text-align: center;
+}
+.footer .secContainer .footerLogo {
+  padding-bottom: 0.5rem;
+}
+.footer .secContainer .footerLogo .logo {
+  align-items: center;
+  justify-content: center;
+  margin: 30px 10px;
+  position: relative;
+}
+.footer .secContainer .footerLogo .logo .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+  margin-right: 0.5rem;
+  padding: 20px;
+}
+.footer .secContainer .accreditationDiv {
+  padding-bottom: 0.5rem;
+}
+.footer .secContainer .accreditationDiv .accreditation {
+  justify-content: center;
+  margin: auto;
+  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer .secContainer .accreditationDiv .dot-number {
+  font-weight: 500;
+  font-size: 14px;
+}
+.footer .secContainer .footerLinks {
+  display: grid;
+  row-gap: 1.5rem;
+}
+.footer .secContainer .footerLinks .linkTitle {
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.footer .secContainer .footerLinks li:hover a {
+  color: var(--HoverColor);
+}
+.footer .secContainer .footerLinks a, .footer .secContainer .footerLinks .phone, .footer .secContainer .footerLinks .email, .footer .secContainer .footerLinks .location {
+  color: var(--textColor);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer .secContainer .footerLinks a:hover, .footer .secContainer .footerLinks .phone:hover, .footer .secContainer .footerLinks .email:hover, .footer .secContainer .footerLinks .location:hover {
+  color: var(--HoverColor);
+}
+.footer .secContainer .socials {
+  gap: 0.5rem;
+  margin: auto;
+  justify-content: center;
+}
+.footer .secContainer .socials .icon {
+  font-size: 30px;
+  background: var(--PrimaryColor);
+  border-radius: 50%;
+  padding: 8px;
+  color: var(--whiteColor);
+}
+.footer .secContainer .socials .icon:hover {
+  background: var(--blackColor);
+}
+
+hr {
+  margin: 1rem 2rem;
+}
+
+.copyrightText {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  height: 10px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .secContainer {
+    margin: auto;
+  }
+  .secContainer .logo {
+    width: 75%;
+    margin: 25px auto -15px !important;
+  }
+  .accreditationDiv {
+    width: 70%;
+    margin: auto;
+  }
+  hr {
+    margin: 1rem 0.5rem;
+  }
+  .copyrightText {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 480px) {
+  .secContainer {
+    margin: auto;
+  }
+  .secContainer .logo {
+    width: 70%;
+    margin: auto !important;
+  }
+  .accreditationDiv {
+    width: 70%;
+    margin: auto;
+  }
+  hr {
+    margin: 1rem 1rem;
+  }
+  .copyrightText {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: flex-start;
+  }
+  .secContainer .footerLinks {
+    justify-content: center;
+  }
+  .secContainer .logo {
+    width: 90%;
+    margin: 35px 20px !important;
+  }
+  .secContainer .accreditationDiv {
+    width: 70% !important;
+    margin: auto;
+  }
+  .secContainer .accreditationDiv .dot-number {
+    font-weight: 500 !important;
+    font-size: 12px !important;
+  }
+  hr {
+    margin: 1rem 1rem;
+  }
+  .copyrightText {
+    font-size: 13.5px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .secContainer {
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: flex-start;
+    gap: 1rem !important;
+    padding-top: 1.5rem;
+  }
+  .footerLinks {
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .logo {
+    width: 90% !important;
+    margin: 35px 10px !important;
+  }
+  .accreditationDiv {
+    width: 100% !important;
+    margin: auto;
+  }
+  .accreditationDiv .dot-number {
+    font-weight: 500 !important;
+    font-size: 12px !important;
+  }
+  .copyrightText {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .secContainer {
+    padding: 2rem;
+  }
+  .accreditationDiv {
+    width: 100% !important;
+    margin: auto;
+  }
+  .accreditationDiv .dot-number {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+  }
+  .copyrightText {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .accreditationDiv {
+    width: 100% !important;
+    margin: auto;
+  }
+  .accreditationDiv .dot-number {
+    font-weight: 500 !important;
+    font-size: 17px !important;
+  }
+}/*# sourceMappingURL=footer.css.map */

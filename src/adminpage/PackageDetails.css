@@ -1,0 +1,33 @@
+.heading {
+    width: 110vw;
+    height: 400px;
+}
+.box1{
+    margin: auto;
+    position:relative;
+    border: dashed black 1px;
+    height: auto;
+    width: 80%
+}
+.box2{
+    margin: auto;
+    position:relative;
+    border: dotted black 1px;
+    height: auto;
+    width: 40%;
+    right:250px;
+}
+.box3{ 
+    margin: auto;
+    position:relative;
+    border: solid black 1px;
+    height: auto;
+    width: 70%;
+    left:10px;
+}
+.but1{
+    position: relative;
+    border-radius: solid 1px black;
+    height:40px;
+    top: 1px;
+}
