@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hettrrms/static/css/main.ab5d83a2.css",
+    "main.js": "/hettrrms/static/js/main.0f16fe75.js",
+    "static/media/TicaoIsland-Masbate.jpg": "/hettrrms/static/media/TicaoIsland-Masbate.43cdf2f86199a4cc84c8.jpg",
+    "static/media/donsol-whaleshark.jpg": "/hettrrms/static/media/donsol-whaleshark.e4a26bf3db98abb4e95a.jpg",
+    "static/media/dot_logo.png": "/hettrrms/static/media/dot_logo.8e56f3d6aaa4d7017bc1.png",
+    "static/media/Namanday-Island-Resort.jpg": "/hettrrms/static/media/Namanday-Island-Resort.6a410953e8869d5bb737.jpg",
+    "static/media/hett_logo.png": "/hettrrms/static/media/hett_logo.20e7d68e6a796034105c.png",
+    "static/media/itsmorefuninph.png": "/hettrrms/static/media/itsmorefuninph.5f5bdf8f35f95d1ef065.png",
+    "static/media/hett_logo_noname.png": "/hettrrms/static/media/hett_logo_noname.c7d19d6a64fd7664b68b.png",
+    "static/media/philtoa_logo.png": "/hettrrms/static/media/philtoa_logo.5f282d4bb2004d388628.png",
+    "static/media/pata_logo.png": "/hettrrms/static/media/pata_logo.b409394c9951cb26bd54.png",
+    "index.html": "/hettrrms/index.html",
+    "main.ab5d83a2.css.map": "/hettrrms/static/css/main.ab5d83a2.css.map",
+    "main.0f16fe75.js.map": "/hettrrms/static/js/main.0f16fe75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab5d83a2.css",
+    "static/js/main.0f16fe75.js"
+  ]
+}
